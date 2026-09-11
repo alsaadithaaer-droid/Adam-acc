@@ -1,0 +1,38 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 56;
+  objects = {
+    000000000000000000000001 = {
+      isa = PBXProject;
+      attributes = { LastUpgradeCheck = 1500; };
+      buildConfigurationList = 000000000000000000000010;
+      compatibilityVersion = "Xcode 14.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (en, Base);
+      mainGroup = 000000000000000000000002;
+      productRefGroup = 000000000000000000000005;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (000000000000000000000020);
+    };
+    000000000000000000000002 = { isa = PBXGroup; children = (000000000000000000000003,000000000000000000000004,000000000000000000000005); sourceTree = "<group>"; };
+    000000000000000000000003 = { isa = PBXGroup; path = Runner; sourceTree = "<group>"; };
+    000000000000000000000004 = { isa = PBXGroup; path = Products; sourceTree = "<group>"; };
+    000000000000000000000005 = { isa = PBXGroup; children = (000000000000000000000006); name = Runner.app; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+    000000000000000000000006 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+    000000000000000000000007 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+    000000000000000000000008 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+    000000000000000000000009 = { isa = PBXGroup; children = (000000000000000000000007,000000000000000000000008); path = Runner; sourceTree = "<group>"; };
+    000000000000000000000010 = { isa = XCConfigurationList; buildConfigurations = (000000000000000000000011,000000000000000000000012); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+    000000000000000000000011 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; }; name = Debug; };
+    000000000000000000000012 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; }; name = Release; };
+    000000000000000000000020 = { isa = PBXNativeTarget; buildConfigurationList = 000000000000000000000021; buildPhases = (); buildRules = (); dependencies = (); name = Runner; productName = Runner; productReference = 000000000000000000000006; productType = "com.apple.product-type.application"; };
+    000000000000000000000021 = { isa = XCConfigurationList; buildConfigurations = (000000000000000000000022,000000000000000000000023); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+    000000000000000000000022 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.adam.app; }; name = Debug; };
+    000000000000000000000023 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.adam.app; }; name = Release; };
+  };
+  rootObject = 000000000000000000000001;
+}
